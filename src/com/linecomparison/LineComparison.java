@@ -25,14 +25,13 @@ public class LineComparison {
 		else
 	    	System.out.println("Both Lines are not equal ");
 	}
-
-
-	public static void main(String[] args) {
+	// calling both function
+  public static void main(String[] args) {
 		System.out.println("Enter Line 1 points");
 		double line1 = calculateLength();
 		System.out.println("Enter Line 2 points");
 		double line2 = calculateLength();
 		System.out.println("Length of line1 " + line1 + "\n Length of line2 " + line2);
 		equalityCheck(line1, line2);
-}
+		}
 }
