@@ -1,7 +1,7 @@
 package com.linecomparison;
 import java.util.Scanner;
 
-//uc2
+//uc3
 public class LineComparison { 
 	//calculating length
 	private static double calculateLength() 
